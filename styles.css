@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=VT323');
 body {
-  background-color: #ffffff;
+  background-color: #000;
   display: table;
 }
 
@@ -19,7 +19,7 @@ body {
   vertical-align: middle;
   font-family: VT323;
   font-size: 25px;
-  color: #656262;
+  color: #FFFFFF;
 }
 
 .box {
@@ -30,7 +30,7 @@ body {
   width: 250px;
   height: 35px;
   border: none;
-  border-bottom: 2px solid #656262;
+  border-bottom: 2px solid #0000FF;
 }
 
 .confirm {
@@ -38,7 +38,7 @@ body {
   font-size: 20px;
   font-family: VT323;
   margin-top: 10px;
-  color: #656262;
+  color: #FFFFFF;
   background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
 }
