@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Login page</title>
+</head>
 <body>
-<body style="background-color:black;">
-
-<h1>BAFWCWBFT</h1>
-<img src="waitforiknowyoumusicvideo.jpg" alt="" width="4980" height="3321">
-<p style="color:black;"> it's in the source</p>
-
+<form>
+    <label for="pswd">Enter your password: </label>
+    <input type="password" id="pswd">
+    <input type="button" value="Submit" onclick="checkPswd();" />
+</form>
+<!--Function to check password the already set password is admin-->
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "VATT-1845-SFFIRIF";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="welcome.html";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
+</script>
 </body>
 </html>
